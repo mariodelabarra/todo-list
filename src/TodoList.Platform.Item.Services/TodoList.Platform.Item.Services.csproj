@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoList.Platform.Item.Domain\TodoList.Platform.Item.Domain.csproj" />
+    <ProjectReference Include="..\TodoList.Platform.Item.Repositories\TodoList.Platform.Item.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
